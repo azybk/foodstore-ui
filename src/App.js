@@ -1,6 +1,5 @@
-import logo from './logo.svg';
-import 'upkit/dist/style.min.css'
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import { Route, HashRouter as Router, Routes } from 'react-router-dom';
+import 'upkit/dist/style.min.css';
 import Home from './pages/Home';
 
 function App() {
