@@ -1,7 +1,5 @@
-import { Route, HashRouter as Router, Routes } from 'react-router-dom';
-import { Provider } from 'react-redux';
-
-import 'upkit/dist/style.min.css';
+import 'upkit/dist/style.min.css'
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import store from './app/store';
 
